@@ -1,0 +1,26 @@
+"*":
+  core:
+    customFileTypes:
+      "source.js": [
+        "jsx"
+      ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "node_modules"
+    ]
+    telemetryConsent: "no"
+  editor:
+    fontFamily: "Source Code Pro"
+    fontSize: 13
+    preferredLineLength: 120
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+  linter:
+    lintOnFly: false
+  "linter-eslint": {}
