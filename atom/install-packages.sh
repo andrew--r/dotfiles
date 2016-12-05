@@ -10,7 +10,7 @@ packages=(
 	'linter'
 	'linter-eslint'
 	'react'
-	'merge-conflicts'
+	'docblockr'
 )
 
 for package in "${packages[@]}"
