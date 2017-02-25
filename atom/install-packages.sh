@@ -11,6 +11,7 @@ packages=(
 	'linter-eslint'
 	'react'
 	'docblockr'
+	'bracket-padder'
 )
 
 for package in "${packages[@]}"
