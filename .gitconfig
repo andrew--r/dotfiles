@@ -1,0 +1,42 @@
+[user]
+	name = Andrew Romanov
+	email = me@andrew-r.ru
+
+[core]
+	editor = nvim
+	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+
+[push]
+	default = matching
+
+[diff]
+	tool = vimdiff
+
+[alias]
+	a = add
+	aa = add --all
+
+	c = commit
+	cm = commit -m
+
+	co = checkout
+
+	st = status
+
+	d = diff
+	dc = diff --cached
+
+	f = fetch
+	fo = fetch origin
+
+	m = merge
+	mm = merge origin/master
+
+	br = branch
+
+	rh = reset HEAD
+	rhh = reset HEAD --hard
+
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --date=short
+
+	ps = push
