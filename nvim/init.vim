@@ -16,6 +16,7 @@ call plug#begin('~/.vim/plugged')
 
 	Plug 'vim-airline/vim-airline'
 	Plug 'editorconfig/editorconfig-vim'
+	Plug 'ctrlpvim/ctrlp.vim'
 
 	Plug 'scrooloose/nerdtree'
 	Plug 'Xuyuanp/nerdtree-git-plugin'
