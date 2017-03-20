@@ -4,6 +4,7 @@
 " 	-> General
 " 	-> NERDTree configuration
 " 	-> CtrlP configuration
+" 	-> vim-javascript configuration
 """"""""""""""""""""""""""""""""""""""""""""""""""
 
 
@@ -14,6 +15,7 @@
 call plug#begin('~/.vim/plugged')
 
 	Plug 'mhartington/oceanic-next'
+	Plug 'sheerun/vim-polyglot'
 
 	Plug 'vim-airline/vim-airline'
 	Plug 'editorconfig/editorconfig-vim'
@@ -108,3 +110,14 @@ let g:ctrlp_max_depth = 40
 
 " Disable working path mode
 let g:ctrlp_working_path_mode = ''
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vim-javascript configuration
+""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Enable jsdoc highlighting
+let g:javascript_plugin_jsdoc = 1
+
+" Enable flow highlighting
+let g:javascript_plugin_flow = 1
