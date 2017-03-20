@@ -3,6 +3,7 @@
 " 	-> Plugins
 " 	-> General
 " 	-> NERDTree configuration
+" 	-> CtrlP configuration
 """"""""""""""""""""""""""""""""""""""""""""""""""
 
 
@@ -22,6 +23,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'Xuyuanp/nerdtree-git-plugin'
 
 call plug#end()
+
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " => General options
@@ -87,3 +89,22 @@ set encoding=utf8
 
 " Open a NERDTree automatically when vim starts up
 autocmd vimenter * NERDTree
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" => CtrlP configuration
+""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Set ignored files and folders
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
+
+" map CtrlP to ctrl+p
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+
+" Increase search depth
+let g:ctrlp_max_files = 0
+let g:ctrlp_max_depth = 40
+
+" Disable working path mode
+let g:ctrlp_working_path_mode = ''
