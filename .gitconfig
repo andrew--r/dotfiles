@@ -3,11 +3,11 @@
 	email = me@andrew-r.ru
 
 [core]
-	editor = nvim
+	editor = vi
 	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
 
 [push]
-	default = matching
+	default = current
 
 [diff]
 	tool = vimdiff
