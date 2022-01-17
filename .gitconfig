@@ -29,6 +29,8 @@
 
 	d = diff
 	dc = diff --cached
+	
+	done = "!f() { git branch -D @{-1}; }; f"
 
 	f = fetch
 	fo = fetch origin
