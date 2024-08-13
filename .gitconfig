@@ -39,6 +39,7 @@
 	mm = merge origin/master
 
 	br = branch
+	brd = branch -D
 
 	rh = reset HEAD
 	rhh = reset HEAD --hard
