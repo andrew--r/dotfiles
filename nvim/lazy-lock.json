@@ -1,4 +1,4 @@
 {
   "alabaster.nvim": { "branch": "main", "commit": "5e3310dc69f799911cc42bfe125ee84732aeef4d" },
-  "lazy.nvim": { "branch": "main", "commit": "460e1cd8f24e364d54543a4b0e83f6f4ec1f65fb" }
+  "lazy.nvim": { "branch": "main", "commit": "1159bdccd8910a0fd0914b24d6c3d186689023d9" }
 }
