@@ -21,6 +21,7 @@ return {
     }
     end,
   },
+  -- File system
   {
     'nvim-telescope/telescope.nvim',
     dependencies = {
@@ -30,10 +31,19 @@ return {
         build = 'make',
         config = function()
           require('telescope').load_extension('fzf')
+          require("telescope").load_extension('file_browser')
         end
       }
     },
   },
+  {
+    "nvim-telescope/telescope-file-browser.nvim",
+    dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" },
+    config = function()
+      require("telescope").setup{}
+    end
+  },
+  -- File tree
   {
     "nvim-neo-tree/neo-tree.nvim",
     branch = "v3.x",
