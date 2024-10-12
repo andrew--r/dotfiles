@@ -15,9 +15,10 @@ return {
     config = function()
       require('lualine').setup {
         options = {
-          theme = 'onelight'
-        }
+          theme = 'onelight',
+          globalstatus = true
       }
+    }
     end,
   },
   {
@@ -32,5 +33,22 @@ return {
         end
       }
     },
+  },
+  {
+    "nvim-neo-tree/neo-tree.nvim",
+    branch = "v3.x",
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+      "nvim-tree/nvim-web-devicons",
+      "MunifTanjim/nui.nvim",
+    },
+    config = function()
+      require("neo-tree").setup{
+        filesystem = {
+          follow_current_file = { enabled = true },
+        },
+        source_selector = { winbar = true }
+      }
+    end
   }
 }
