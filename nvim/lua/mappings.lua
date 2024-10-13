@@ -1,6 +1,3 @@
--- Map leader to ,
-vim.g.mapleader = ','
-
 -- Fast saving
 vim.api.nvim_set_keymap('n', '<leader>w', ':w<CR>', { noremap = true })
 
