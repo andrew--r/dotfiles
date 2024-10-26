@@ -17,6 +17,10 @@ vim.opt.hlsearch = true
 -- Highlight matching parentheses
 vim.opt.showmatch = true
 
+-- Case-insensitive search by default
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+
 -- No annoying sound on errors
 vim.opt.errorbells = false
 

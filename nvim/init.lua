@@ -13,6 +13,7 @@ spec("plugins.mason")
 spec("plugins.autocomplete")
 spec("plugins.lspconfig")
 spec("plugins.lsp-signature")
+spec("plugins.autosearch")
 
 require("plugins.lazy")
 require("mappings")
