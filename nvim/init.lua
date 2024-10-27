@@ -14,6 +14,7 @@ spec("plugins.autocomplete")
 spec("plugins.lspconfig")
 spec("plugins.lsp-signature")
 spec("plugins.autosearch")
+spec("plugins.surround")
 
 require("plugins.lazy")
 require("mappings")
