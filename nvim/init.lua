@@ -16,6 +16,7 @@ spec("plugins.lsp-signature")
 spec("plugins.autosearch")
 spec("plugins.surround")
 spec("plugins.whichkey")
+spec("plugins.sessions")
 
 require("plugins.lazy")
 require("mappings")
